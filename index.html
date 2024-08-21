@@ -4,26 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Central Bank</title>
+
+    <script
+      src="https://kit.fontawesome.com/8c3d9b5c91.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./style/main.css" />
   </head>
   <body>
     <header>
-      <h1>CENTRAL BANK OF YABA</h1>
+      <div class="bankname">
+        <h1>CENTRAL</h1>
+        <p>BANK OF YABA</p>
+      </div>
+
       <nav>
-        <h3>Menu</h3>
-        <img src="images/menu icon.jpeg" alt="menu icon" />
+        <ul class="nav-list">
+          <li class="list-item"><a href="">Home </a></li>
+          <li class="list-item"><a href="">About Us</a></li>
+          <li class="list-item"><a href="">Contact</a></li>
+        </ul>
+        <h3 class="menutext">Menu <i class="fa-solid fa-bars"></i></h3>
       </nav>
-      <br />
+      <!-- <br /> -->
     </header>
 
     <main>
       <section>
-        <img src="images/island-images.jpeg" alt="front banner" />
+        <img
+          class="firstImg"
+          src="images/island-images.jpeg"
+          alt="front banner"
+        />
       </section>
 
       <br />
-      <section>
-        <div>
-          <img src="images/PowerB.jpeg" alt="powerButton icon" />
+      <section class="secondsection">
+        <div class="seconditem">
+          <i class="fa-solid fa-power-off fa-8x iconcenter"></i>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
             libero eaque ex minus ullam suscipit tempora temporibus facere ut
@@ -31,12 +50,12 @@
             aperiam architecto? Laborum adipisci inventore quia deleniti error,
             rerum ?
           </p>
-          <button>learn</button>
+          <button class="button">learn More</button>
         </div>
         <br />
 
-        <div>
-          <img src="images/energy.png" alt="energy icon" />
+        <div class="seconditem">
+          <i class="fa-solid fa-bolt fa-8x"></i>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
             libero eaque ex minus ullam suscipit tempora temporibus facere ut
@@ -44,10 +63,10 @@
             aperiam architecto? Laborum adipisci inventore quia deleniti error,
             rerum ?
           </p>
-          <button>learn</button>
+          <button class="button">learn More</button>
         </div>
 
-        <div>
+        <div class="seconditem">
           <h3>Nulla maximus henredit</h3>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
@@ -55,12 +74,20 @@
             minima quia, dolor voluptas. Pariatur rerum recusandae laudantium
             aperiam architecto? Laborum adipisci inventore quia deleniti error,
             rerum ?
+            <ul>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, commodi!</li>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, commodi!</li>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, commodi!</li>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, commodi!</li>
+            </ul>
+            
+          
           </p>
         </div>
       </section>
 
-      <section>
-        <div>
+      <section class="laptopSection">
+        <div class="laptops">
           <img src="images/laptop1.jpeg" alt="laptop image" />
           <h2>Lorem ipsum</h2>
           <p>
@@ -68,10 +95,10 @@
             libero eaque ex minus ullam suscipit tempora temporibus facere ut
             minima quia, dolor voluptas. Pariatur rerum recusandae laudantium
           </p>
-          <button>Details</button>
+          <button class="button">Details</button>
         </div>
 
-        <div>
+        <div class="laptops">
           <img src="images/eyeglasses.jpeg" alt="Glasses on table" />
           <h2>libero eaque ex minus</h2>
           <p>
@@ -79,7 +106,7 @@
             libero eaque ex minus ullam suscipit tempora temporibus facere ut
             minima quia, dolor voluptas. Pariatur rerum recusandae laudantium
           </p>
-          <button>Details</button>
+          <button class="button">Details</button>
         </div>
       </section>
 
