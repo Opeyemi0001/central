@@ -14,12 +14,14 @@
   </head>
   <body>
     <header>
+      <!-- bankname -->
       <div class="bankname">
         <h1>CENTRAL</h1>
         <p>BANK OF YABA</p>
       </div>
 
-      <nav>
+      <!-- nav section -->
+      <nav class="nav-list">
         <ul class="nav-list">
           <li class="list-item"><a href="">Home </a></li>
           <li class="list-item"><a href="">About Us</a></li>
@@ -27,20 +29,25 @@
         </ul>
         <h3 class="menutext">Menu <i class="fa-solid fa-bars"></i></h3>
       </nav>
-      <!-- <br /> -->
+      
     </header>
 
     <main>
+
+      <!-- Big image section  -->
       <section>
         <img
           class="firstImg"
-          src="images/island-images.jpeg"
+          src="images/gallery-img-02.jpg"
           alt="front banner"
         />
       </section>
 
-      <br />
+      
+
+      <!-- Big icons section  -->
       <section class="secondsection">
+
         <div class="seconditem">
           <i class="fa-solid fa-power-off fa-8x iconcenter"></i>
           <p>
@@ -86,67 +93,92 @@
         </div>
       </section>
 
+      <!-- Two laptop section  -->
       <section class="laptopSection">
         <div class="laptops">
-          <img src="images/laptop1.jpeg" alt="laptop image" />
-          <h2>Lorem ipsum</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
-            libero eaque ex minus ullam suscipit tempora temporibus facere ut
-            minima quia, dolor voluptas. Pariatur rerum recusandae laudantium
-          </p>
-          <button class="button">Details</button>
+          <img src="images/tm-img-1.jpg" alt="laptop image" />
+
+          <div class="laptop-content">
+              <h2>Lorem ipsum</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.  Eius
+              libero eaque ex minus ullam suscipit tempora temporibus facere ut
+              minima quia, dolor voluptas. Pariatur rerum recusandae laudantium
+            </p>
+            <div class=" laptop-button">
+              <button class="button">Details</button>
+            </div>
+          </div>
+          
         </div>
 
         <div class="laptops">
-          <img src="images/eyeglasses.jpeg" alt="Glasses on table" />
-          <h2>libero eaque ex minus</h2>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius
-            libero eaque ex minus ullam suscipit tempora temporibus facere ut
-            minima quia, dolor voluptas. Pariatur rerum recusandae laudantium
-          </p>
-          <button class="button">Details</button>
+          <img src="images/tm-img-2.jpg" alt="Glasses on table" />
+
+          <div class="laptop-content">
+            <h2>libero eaque ex minus</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.  Eius
+              libero eaque ex minus ullam suscipit tempora temporibus facere ut
+              minima quia, dolor voluptas. Pariatur rerum recusandae laudantium
+            </p>
+            <div class=" laptop-button">
+              <button class="button" >Details</button>
+            </div>
+            
+        </div>
         </div>
       </section>
 
+      <!-- wooden table or the long Bridge section  -->
       <section>
-        <img src="images/wooden-table.jpeg" alt="wooden image" />
+        <div class="bridge-image">
+          <img src="images/gallery-img-01.jpg" alt="wooden image" />
+        </div>
+        
       </section>
 
-      <section>
-        <img src="images/handhcup.jpeg" alt="hand holding a cup" />
+      <!-- Hand holding a cup and laptop section  -->
+      <section class="holdingCup-section">
+        <div class="holdingCup">
+          <img src="images/tm-sc4-img-1.jpg" alt="hand holding a cup" />
+        </div>
+        
 
-        <div>
-          <div>
-            <img src="images/laptop1.jpeg" alt="laptop" />
-            <div>
+        <div class="HoldingCup-laptops">
+          <div class="HoldingCup-laptop laptop-one">
+            <img src="images/sc4-img-3.jpg" alt="laptop" />
+            <div class="laptop-text">
               <h2>Lorem ipsum dolor sit amet.</h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
-                soluta rem ab blanditiis quis eius laboriosam sequi facere eum
+                soluta rem ab <br> blanditiis quis eius laboriosam sequi facere eum
                 perferendis!
               </p>
             </div>
           </div>
-          <div>
-            <img src="images/laptop1.jpeg" alt="laptop" />
-            <div>
+
+          <div class=" HoldingCup-laptop laptop-two">
+            <img src="images/sc4-img-2.jpg" alt="laptop" />
+            <div class="laptop-text">
               <h2>Lorem ipsum dolor sit amet.</h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
-                soluta rem ab blanditiis quis eius laboriosam sequi facere eum
+                soluta rem ab <br>blanditiis quis eius laboriosam sequi facere eum
                 perferendis!
               </p>
             </div>
           </div>
-          <div>
-            <img src="images/laptop1.jpeg" alt="laptop" />
-            <div>
+
+          <div class="HoldingCup-laptop laptop-three">
+
+            <img src="images/sc4-img-4.jpg" alt="laptop" />
+
+            <div class="laptop-text">
               <h2>adipisicing elit. Qui.</h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
-                soluta rem ab blanditiis quis eius laboriosam sequi facere eum
+                soluta rem ab blanditiis quis eius <br>laboriosam  sequi facere eum
                 perferendis!
               </p>
             </div>
@@ -154,36 +186,47 @@
         </div>
       </section>
 
-      <section>
+      <!-- contact us section  -->
+      <section class="contact-us">
         <div>
           <form action="">
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <br />
+            <div class="name-email">
+              <input type="text" placeholder="Name" class="name" />
+              <input type="email" placeholder="Email" class="email" />
+            </div> 
 
             <div>
-              <input type="text" placeholder="Message" />
+              <textarea name="text" id="message" placeholder="Message" class="message"></textarea>
             </div>
-            <button>Send It Now</button>
           </form>
+
+          <div class="sendNow">
+            <button>Send It Now</button>
+          </div>
         </div>
-        <div>
-          <h2>Contact Us</h2>
-          <p>
+        
+        <div class="contact-us-text">
+          <div class="contact-us-heading">
+            <h2>Contact Us</h2>
+            <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
             reprehenderit vitae alias eius. Totam pariatur placeat, dolores
             sapiente ut blanditiis doloremque officia, ad laborum corporis,
-            distinctio repellendus? Dolorum a sequi accusamus, ipsa laborum,
-            adipisci, sed magnam
-          </p>
-
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
+            distinctio repellendus.
+            </p>
+          </div>
+          
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+          
         </div>
       </section>
     </main>
 
+    <!-- footer/ copyright section -->
     <footer>
       <p>copyright 2018 Your Company Name</p>
     </footer>
